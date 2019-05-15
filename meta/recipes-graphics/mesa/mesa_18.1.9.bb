@@ -7,6 +7,7 @@ SRC_URI = "https://mesa.freedesktop.org/archive/mesa-${PV}.tar.xz \
            file://0004-Use-Python-3-to-execute-the-scripts.patch \
            file://0005-dri-i965-Add-missing-time.h-include.patch \
            file://0006-use-PKG_CHECK_VAR-for-defining-WAYLAND_PROTOCOLS_DAT.patch \
+           file://0001-freedreno-add-query-for-dmabuf-modifiers.patch \
 "
 
 SRC_URI[md5sum] = "2f8d2098ab478bc3907e42130577b54a"
